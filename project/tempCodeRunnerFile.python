@@ -1,0 +1,7 @@
+from datetime import date 
+
+_day = int(input("Enter year:"))
+
+day = date(_day,1,1)
+
+print(day.today(day))

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Assistant</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Voice Assistant</h1>
+        <button id="start">Start Listening</button>
+        <p id="output"></p>
+    </div>
+
+    <script>
+        document.getElementById("start").addEventListener("click", () => {
+            fetch("/start-jarvis", { method: "POST" })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById("output").innerText = data.response || data.error;
+            });
+        });
+    </script>
+</body>
+</html>
