@@ -1,3 +1,10 @@
+
+jarvis-assistant/
+├── main.py
+├── musiclibrary.py
+├── requirements.txt
+└── README.md
+
 # Jarvis - Voice-Controlled Personal Assistant
 
 Jarvis is a Python-based voice assistant that responds to voice commands like opening websites, playing music, fetching news, and answering questions using Google's Gemini API. It uses speech recognition, text-to-speech, and integrates with online APIs to deliver a smart assistant experience.
@@ -34,7 +41,10 @@ Jarvis is a Python-based voice assistant that responds to voice commands like op
    cd jarvis-assistant
 
 
-##UPDATE IN main FILE
 
 GEMINI_API_KEY = "your_gemini_api_key"
 NEWS_API_KEY = "your_world_news_api_key"
+
+
+
+
