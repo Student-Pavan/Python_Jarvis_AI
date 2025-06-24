@@ -1,9 +1,9 @@
 
-jarvis-assistant/
-├── main.py
-├── musiclibrary.py
-├── requirements.txt
-└── README.md
+jarvis-assistant/</br>
+├── main.py</br>
+├── musiclibrary.py</br>
+├── requirements.txt</br>
+└── README.md</br>
 
 # Jarvis - Voice-Controlled Personal Assistant
 
@@ -42,8 +42,8 @@ Jarvis is a Python-based voice assistant that responds to voice commands like op
 
 
 
-GEMINI_API_KEY = "your_gemini_api_key"
-NEWS_API_KEY = "your_world_news_api_key"
+##GEMINI_API_KEY = "your_gemini_api_key"</br>
+##NEWS_API_KEY = "your_world_news_api_key"</br>
 
 
 
