@@ -40,10 +40,10 @@ Jarvis is a Python-based voice assistant that responds to voice commands like op
    git clone https://github.com/your-username/jarvis-assistant.git
    cd jarvis-assistant
 
+---
 
-
-##GEMINI_API_KEY = "your_gemini_api_key"</br>
-##NEWS_API_KEY = "your_world_news_api_key"</br>
+# GEMINI_API_KEY = "your_gemini_api_key"</br>
+# NEWS_API_KEY = "your_world_news_api_key"</br>
 
 
 
