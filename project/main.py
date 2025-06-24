@@ -6,8 +6,8 @@ import pyttsx3
 import musiclibrary
 
 # API Keys
-GEMINI_API_KEY = "AIzaSyBXdTtYBuWY5F4Wi0dKlSQbVjShO61zcm0"
-NEWS_API_KEY = "11fccf8a933f4acbbabda8bfa2942515"
+GEMINI_API_KEY = "YOUR_API_KEY"
+NEWS_API_KEY = "YOUR_API_KEY"
 
 # Initialize recognizer and text-to-speech engine
 recogniser = sr.Recognizer()
